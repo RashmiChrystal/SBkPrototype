@@ -53,36 +53,35 @@
 
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
-
+          
           <li class="dropdown notifications-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-bell-o"></i>
-              <span class="label label-warning">10</span>
+              <span class="label label-warning">5</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 10 notifications</li>
+              <li class="header">You have 5 notifications</li>
               <li>
                 
                 <ul class="menu">
                   <li>
                     <a href="#">
-                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                      <i class="fa fa-users text-aqua"></i> Lavender Brown requested for a book
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
-                      page and may cause design problems
+                      <i class="fa fa-warning text-yellow"></i> A new book was added!
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-users text-red"></i> 5 new members joined
+                      <i class="fa fa-users text-red"></i> Check out the newest bookstore.
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-shopping-cart text-green"></i> 25 sales made
+                      <i class="fa fa-shopping-cart text-green"></i> Track your book order.
                     </a>
                   </li>
                   <li>
@@ -95,7 +94,6 @@
               <li class="footer"><a href="#">View all</a></li>
             </ul>
           </li>
-
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="../dist/img/books/freddp.jpg" class="user-image" alt="User Image">
@@ -111,7 +109,6 @@
                   <small>Member since June 2019</small>
                 </p>
               </li>
-             
               <li class="user-footer">
                 <div class="pull-left">
                   <a href="#" class="btn btn-default btn-flat">Profile</a>
@@ -168,12 +165,12 @@
           </ul>
         </li>
         <li>
-            <a href="#"> <!-- Add url -->
+            <a href="AddItemForm.html"> <!-- Add url -->
                 <i class="glyphicon glyphicon-book"></i> <span>Add an Item</span>
             </a>
         </li>
         <li>
-            <a href="RequestItemForm.html"> <!-- Add url -->
+            <a href="#"> <!-- Add url -->
                 <i class="glyphicon glyphicon-gift"></i> <span>Request an Item</span>
             </a>
         </li>
@@ -187,11 +184,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Add an Item - Form
+        Request an Item - Form
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Add an Item</li>
+        <li class="active">Request an Item</li>
       </ol>
     </section>
 
@@ -201,7 +198,7 @@
             <div>
                     <div class="box box-info">
                             <div class="box-header with-border">
-                              <h2 class="box-title">Add an Item</h2>
+                              <h2 class="box-title">Request an Item</h2>
                             </div>
                             <!-- /.box-header -->
                             <!-- form start -->
@@ -254,26 +251,6 @@
                                             </select>
                                         </div>
                                 </div>
-                                <div id="bookDetails" style="display:none">
-                                    <div class="form-group">
-                                        <label for="inputAuthor" class="col-sm-2 control-label">Author</label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="inputAuthor" placeholder="Author">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                            <label for="inputPublisher" class="col-sm-2 control-label">Publisher</label>
-                                            <div class="col-sm-10">
-                                                <input type="text" class="form-control" id="inputPublisher" placeholder="Publisher">
-                                            </div>
-                                    </div>
-                                    <div class="form-group">
-                                                <label for="inputBarcode" class="col-sm-2 control-label">Barcode Number</label>
-                                                <div class="col-sm-10">
-                                                    <input type="text" class="form-control" id="inputBarcode" placeholder="Barcode Number">
-                                                </div>
-                                    </div>
-                                </div>
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">Description</label>
                                     <div class="col-sm-10">
@@ -292,7 +269,7 @@
                               </div>
                               <div class="box-footer">
                                   <button type="submit" class="btn btn-default pull-right">Cancel</button> &nbsp;
-                                  <button type="submit" class="btn btn-info pull-right">Add</button>
+                                  <button type="submit" class="btn btn-info pull-right">Request</button>
                               </div>
                               
                             </form>
